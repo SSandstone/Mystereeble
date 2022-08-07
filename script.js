@@ -67,8 +67,6 @@ const topAlphaList=topRow.toUpperCase().split(" ");
 const midAlphaList=midRow.toUpperCase().split(" ");
 const botAlphaList=botRow.toUpperCase().split(" ");
 const alphaList= topAlphaList.concat(midAlphaList,botAlphaList);
-let placeholderList=['QAPOW', 'SHAZAM', 'WOWIE', 'KTANG','PUM-SPAK'];
-let placeholders=placeholderList[Math.floor(Math.random()*placeholderList.length-1)];
 //console.log(alphaList)
 
 //I believe this could by a single forEach loop
@@ -186,7 +184,7 @@ function guessInputArea(){
         guessCell.maxLength=`${wordLength}`;
         guessCell.size='1';
         guessCell.value='';
-        guessCell.placeholder=`${placeholders}`;
+        guessCell.placeholder=`MYSTEREEBLE`;
         guessCell.classList.add('wordGuessed');
         guessCell.setAttribute('id',`input`);
         guessGrid.appendChild(guessCell);
