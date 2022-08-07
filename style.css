@@ -15,6 +15,10 @@ body {
 
 }
 
+h4,h5{
+ font-size:larger;   
+}
+
 .main{
     display: flex;
     flex-direction: column;
