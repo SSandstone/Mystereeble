@@ -1,6 +1,5 @@
 * text{
     text-align: center;
-    box-sizing: border-box;
     font-size: large;
 }
 
@@ -12,6 +11,10 @@ body {
     padding: 0px;
     height:100vh;
     width: 100%;
+}
+
+box > * {
+  box-sizing: border-box; 
 }
 
 .header {
