@@ -1,4 +1,11 @@
-# Weeble
+# Mystereeble
+
+8.9.22
+Features I will add:
+have keyboard reset colors when new game happens
+have input box disappear when game ends; reappear when new game starts
+when you click on keyboard letter have it appear in input
+transition boxes to have cool effect when a guess is submitted
 
 8.7.22
 
@@ -9,3 +16,6 @@ I was definitely not ready for it. I tried to use only what I had already learne
 I think there is still one uncommon error that I need to fix. Basically if a word contains duplicate letters, I'm having trouble assigning it the right color. I will fix later! And hopefully I will know more so I can clean up and simplify a lot of the code.
 
 I'm going to go back to The Odin Project and try to wrap up the foundational course first.
+
+
+
